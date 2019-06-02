@@ -15,7 +15,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <div id='app'>
+      <div class='app'>
         <Navbar />
         <Router onChange={this.handleRoute}>
           <Home path='/' />
